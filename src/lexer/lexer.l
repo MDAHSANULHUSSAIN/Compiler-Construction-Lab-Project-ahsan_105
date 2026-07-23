@@ -2,7 +2,7 @@
  * lexer.l - Flex specification for the custom mini language.
  * Recognizes keywords, identifiers, constants, operators,
  * delimiters, comments (discarded) and reports invalid tokens
- * as lexical errors with line numbers, without halting.
+ 
  * ============================================================ */
 %{
 #include <stdio.h>
